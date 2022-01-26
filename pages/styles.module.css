@@ -1,0 +1,73 @@
+.container {
+    padding: 4rem 1rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .container h1 {
+    font-weight: 800;
+    color: #1b40a3;
+  }
+  
+  .container p {
+    margin: 1.5rem 0;
+    line-height: 1.5;
+    margin-bottom: 0px;
+  }
+  
+  .container button {
+    position: relative;
+    left: 665.5px;
+    top: 40px;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    border: none;
+    transition: 0.25s all ease;
+    background-color: #ff5e00;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  
+  .container button:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  }
+  
+  .container a {
+    text-decoration: none;
+    color: #570b7a;
+  }
+  
+  .inlineCode {
+    color: #027711;
+    font-size: 16px;
+    white-space: pre-wrap;
+  }
+  
+  .inlineCode::before,
+  .inlineCode::after {
+    content: '`';
+  }
+  
+  .code {
+    margin-top: 0px;
+    display: block;
+    background: #0e0425;
+    border-radius: 8px;
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .links {
+    margin-top: 16px;
+    color: #9c9c9c;
+  }
+  
