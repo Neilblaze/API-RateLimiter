@@ -15,3 +15,4 @@ X-RateLimit-Limit: 10
 X-RateLimit-Remaining: 0
 ```
 
+**Limit Ceiling : 500**
